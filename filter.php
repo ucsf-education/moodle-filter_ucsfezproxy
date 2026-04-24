@@ -23,4 +23,6 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-class_alias(\filter_ucsfezproxy\text_filter::class, \filter_ucsfezproxy::class);
+namespace filter_ucsfezproxy;
+
+class_alias(text_filter::class, 'filter_ucsfezproxy');
