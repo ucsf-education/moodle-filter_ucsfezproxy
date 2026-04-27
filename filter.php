@@ -15,14 +15,14 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Backwards-compatibility layer with Moodle 4.4 and earlier.
- * See https://moodledev.io/docs/4.5/devupdate#filter-plugins for reference.
+ * File only retained to prevent fatal errors in code that tries to require/include this.
  *
+ * @todo MDL-82708 delete this file as part of Moodle 6.0 development.
+ * @deprecated This file is no longer required in Moodle 4.5+.
  * @package    filter_ucsfezproxy
  * @copyright  The Regents of the University of California
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+defined('MOODLE_INTERNAL') || die();
 
-namespace filter_ucsfezproxy;
-
-class_alias(text_filter::class, 'filter_ucsfezproxy');
+debugging('This file is no longer required in Moodle 4.5+. Please do not include/require it.', DEBUG_DEVELOPER);
