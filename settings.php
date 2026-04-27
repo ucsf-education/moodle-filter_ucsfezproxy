@@ -24,7 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-require_once($CFG->dirroot.'/filter/ucsfezproxy/classes/text_filter.php');
+require_once($CFG->dirroot . '/filter/ucsfezproxy/classes/text_filter.php');
 
 use filter_ucsfezproxy\text_filter;
 

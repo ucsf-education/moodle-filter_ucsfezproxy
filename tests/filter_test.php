@@ -30,7 +30,6 @@ use context_system;
 defined('MOODLE_INTERNAL') || die();
 
 global $CFG;
-require_once($CFG->dirroot . '/filter/ucsfezproxy/filter.php');
 
 /**
  * Unit tests for filter_ucsfezproxy.
@@ -43,7 +42,6 @@ require_once($CFG->dirroot . '/filter/ucsfezproxy/filter.php');
  * @covers \filter_ucsfezproxy\text_filter
  */
 final class filter_test extends advanced_testcase {
-
     /**
      * @var text_filter The EZProxy filter object under test.
      */

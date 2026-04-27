@@ -24,7 +24,6 @@ namespace filter_ucsfezproxy;
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class text_filter extends \core_filters\text_filter {
-
     /**
      * @var string PROXY_PREFIX
      */
