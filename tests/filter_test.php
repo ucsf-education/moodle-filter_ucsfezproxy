@@ -42,7 +42,6 @@ global $CFG;
  * @covers \filter_ucsfezproxy\text_filter
  */
 final class filter_test extends advanced_testcase {
-
     /**
      * @var text_filter The EZProxy filter object under test.
      */
