@@ -30,7 +30,6 @@ use context_system;
 defined('MOODLE_INTERNAL') || die();
 
 global $CFG;
-require_once($CFG->dirroot . '/filter/ucsfezproxy/filter.php');
 
 /**
  * Unit tests for filter_ucsfezproxy.
