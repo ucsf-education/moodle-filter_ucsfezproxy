@@ -24,9 +24,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2026042400;
-$plugin->requires  = 2025100600;
+$plugin->version   = 2026110400;
+$plugin->requires  = 2026042000;
 $plugin->component = 'filter_ucsfezproxy';
-$plugin->release   = 'v5.1';
-$plugin->supported = [501, 501];
+$plugin->release   = 'v5.2.0';
+$plugin->supported = [502, 502];
 $plugin->maturity  = MATURITY_STABLE;
